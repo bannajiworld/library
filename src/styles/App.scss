@@ -1,0 +1,40 @@
+.Brand{
+  font-size:35px,
+}
+
+.btn-edit {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.box__custom {
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s;
+  top:0;
+  right: 0;
+}
+
+.box__custom:hover {
+  box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.box__custom:hover .button-download {
+  opacity: 1;
+  left: 0px;
+}
+
+.button-download {
+  position: absolute;
+  top: 0;
+  border-radius: 0;
+  transition: all 0.5s;
+  z-index: 999;
+}
+.button-download  {
+  opacity: 0;
+  left: -100px;
+  border-bottom-right-radius: 30px;
+}
